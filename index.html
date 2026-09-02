@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Vault — A curated archive of authenticated vintage designer bags. Coach, Fendi, and more. Each piece is one of a kind." />
+  <meta name="theme-color" content="#0D0B09" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Work+Sans:wght@300;400;500&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Work+Sans:wght@300;400;500&display=swap" /></noscript>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>The Vault — Curated Vintage Designer Bags</title>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ══ HEADER ══════════════════════════════════════════ -->
+  <header role="banner" id="site-header">
+    <a href="#hero" class="nav-logo" aria-label="The Vault — return to top">The Vault</a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#catalog">Collection</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+
+  <!-- ══ HERO ════════════════════════════════════════════ -->
+  <section id="hero" aria-labelledby="hero-title">
+    <p class="hero-tag">Summer 2026 Edit</p>
+    <h1 class="hero-title" id="hero-title">The <em>Vault</em></h1>
+    <p class="hero-sub">
+      Authenticated vintage designer bags, hand-sourced for the discerning collector.
+      Nine pieces. Each entirely one of a kind.
+    </p>
+    <div class="hero-rule" aria-hidden="true">
+      <div class="hero-rule-line"></div>
+      <span class="hero-rule-text">9 pieces available</span>
+      <div class="hero-rule-line"></div>
+    </div>
+    <a href="#catalog" class="hero-cta">Browse The Collection</a>
+    <div class="scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+
+  <!-- ══ ABOUT ═══════════════════════════════════════════ -->
+  <div class="section-intro" id="about" data-animate>
+    <h2>Curated with Intention</h2>
+    <p>
+      Every bag in The Vault has been personally authenticated, sourced from private collections,
+      and presented without alteration. These are originals with history, patina, and soul —
+      not replicas, not refurbished. The real thing.
+    </p>
+  </div>
+
+
+  <!-- ══ CATALOG ══════════════════════════════════════════
+       Layout (gap-free, 9 products):
+       Row 1 — Featured (full-width):  Red Suede Studio
+       Row 2 — 2 cols:                 Fendi  |  Cognac Baguette
+       Row 3 — 2 cols:                 Hobo Worn  |  Suede Panel
+       Row 4 — Featured (full-width):  Artisan Leather Hobo
+       Row 5 — 2 cols:                 Red Suede Worn  |  Hobo Still Life
+       Row 6 — Featured (full-width):  Patchwork Pochette
+  ════════════════════════════════════════════════════════ -->
+  <main id="main">
+  <section id="catalog" aria-label="Bag Collection">
+
+
+    <!-- ─────────────────────────────────────────────────
+         ROW 1 · FEATURED
+         Coach Red Suede Hamptons — Dark Studio
+    ───────────────────────────────────────────────────── -->
+    <article class="product-card product-card--featured" id="bag-red-studio" data-animate>
+      <div class="card-visual card-visual--red">
+        <figure class="product-figure">
+          <img
+            src="./assets/images/red-suede-studio.png"
+            alt="Coach Red Suede Hamptons Satchel on a black marble surface in a dark dramatic studio — deep crimson suede body, antique brass chain hardware, star charm, contrast stitching, dried burgundy florals in the background"
+            loading="eager" width="900" height="1100"
+            class="product-img"
+          />
+        </figure>
+        <div class="price-badge" aria-label="Price: £950">£950</div>
+        <div class="brand-badge">Coach</div>
+      </div>
+      <div class="card-info">
+        <div>
+          <p class="featured-eyebrow">Featured Piece</p>
+          <p class="product-brand">Coach — Est. 1941</p>
+          <h2 class="product-name">Red Suede<br>Hamptons Satchel</h2>
+          <div class="info-divider" aria-hidden="true"></div>
+          <p class="product-desc">
+            A statement piece in deep crimson suede that commands any room it enters. Finished with
+            substantial antique brass chain-link hardware, a beaded ball-chain with Coach star charm,
+            and contrast cream stitching throughout. The double braided-ring handles sit at a confident
+            height — this is a bag built as much for presence as it is for function. Rare colourway.
+            Near-mint condition.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <span class="price-display">£950</span>
+          <a href="#contact" class="buy-btn buy-btn--accent">Buy This Bag</a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ─────────────────────────────────────────────────
+         ROW 2 · LEFT
+         Fendi Zucchino Jacquard Mini Baguette
+    ───────────────────────────────────────────────────── -->
+    <article class="product-card" id="bag-fendi" data-animate>
+      <div class="card-visual card-visual--fendi">
+        <figure class="product-figure">
+          <img
+            src="./assets/images/fendi-studio.png"
+            alt="Fendi Zucchino Jacquard Mini Baguette on a stone pedestal — all-over black FF monogram canvas with patent leather strap and silver clasp, warm beige studio background with dried flower arrangement and ceramic orb"
+            loading="lazy" width="900" height="1100"
+            class="product-img"
+          />
+        </figure>
+        <div class="price-badge" aria-label="Price: £1,200">£1,200</div>
+        <div class="brand-badge">Fendi</div>
+      </div>
+      <div class="card-info">
+        <div>
+          <p class="product-brand">Fendi — Roma</p>
+          <h2 class="product-name">Zucchino Jacquard<br>Mini Baguette</h2>
+          <p class="product-desc">
+            The bag that defined an era. All-over FF Zucchino monogram in tonal black-on-black
+            jacquard canvas — understated up close, unmistakable from across the room. Clean patent
+            leather shoulder strap, silver-tone clasp hardware, and a structured silhouette that sits
+            perfectly under the arm. A true collector's piece from Fendi's most iconic era, in
+            exceptional condition.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <span class="price-display">£1,200</span>
+          <a href="#contact" class="buy-btn">Buy This Bag</a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ─────────────────────────────────────────────────
+         ROW 2 · RIGHT
+         Coach Heritage Saddle Baguette
+    ───────────────────────────────────────────────────── -->
+    <article class="product-card" id="bag-cognac" data-animate style="transition-delay:0.1s">
+      <div class="card-visual card-visual--cognac">
+        <figure class="product-figure">
+          <img
+            src="./assets/images/cognac-baguette.png"
+            alt="Coach Heritage Saddle Baguette on a dark wooden table with camel throw and dried grass arrangement — full-grain cognac leather with contrast cream stitching, silver heart charm and adjustable dark strap"
+            loading="lazy" width="900" height="1100"
+            class="product-img"
+          />
+        </figure>
+        <div class="price-badge" aria-label="Price: £600">£600</div>
+        <div class="brand-badge">Coach</div>
+      </div>
+      <div class="card-info">
+        <div>
+          <p class="product-brand">Coach — Heritage</p>
+          <h2 class="product-name">Heritage Saddle<br>Baguette</h2>
+          <p class="product-desc">
+            Full-grain cowhide in a rich burnished cognac — the kind of leather that only deepens
+            with age. Contrast cream saddle stitching, silver heart charm on clasp, and a sleek dark
+            adjustable strap. The patina is entirely natural, earned through careful use and time.
+            Original Coach hangtag intact. A foundational vintage Coach piece in exceptional condition.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <span class="price-display">£600</span>
+          <a href="#contact" class="buy-btn">Buy This Bag</a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ─────────────────────────────────────────────────
+         ROW 3 · LEFT
+         Coach Signature Crescent Hobo — As Worn
+    ───────────────────────────────────────────────────── -->
+    <article class="product-card" id="bag-hobo-worn" data-animate>
+      <div class="card-visual card-visual--hobo-worn">
+        <figure class="product-figure">
+          <img
+            src="./assets/images/hobo-worn.png"
+            alt="Coach Signature Crescent Hobo worn over the shoulder of a model in a cream wool coat — face not shown — khaki and tobacco monogram canvas with gold-tone star charm, set in a grand panelled hallway with white florals"
+            loading="lazy" width="900" height="1100"
+            class="product-img"
+          />
+        </figure>
+        <div class="price-badge" aria-label="Price: £550">£550</div>
+        <div class="brand-badge">Coach</div>
+      </div>
+      <div class="card-info">
+        <div>
+          <p class="product-brand">Coach — Signature Series</p>
+          <h2 class="product-name">Signature Crescent<br>Hobo — As Worn</h2>
+          <p class="product-desc">
+            Warm khaki and tobacco Coach monogram canvas in the signature crescent silhouette —
+            a shape that drapes naturally against the body and only gets more comfortable with wear.
+            Adjustable brown leather strap, gold-tone hardware, and the classic Coach star charm.
+            Seen here styled with cream wool — it moves between formal and casual without missing
+            a beat.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <span class="price-display">£550</span>
+          <a href="#contact" class="buy-btn">Buy This Bag</a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ─────────────────────────────────────────────────
+         ROW 3 · RIGHT
+         Coach Signature Suede Panel Baguette
+    ───────────────────────────────────────────────────── -->
+    <article class="product-card" id="bag-suede" data-animate style="transition-delay:0.1s">
+      <div class="card-visual card-visual--suede">
+        <figure class="product-figure">
+          <img
+            src="./assets/images/suede-panel.png"
+            alt="Coach Signature Canvas Baguette with dusty rose and lavender suede centre panel on a dark marble surface — Coach gift box, Chanel perfume bottle, white roses in a ribbed vase and a Cereal magazine styled around it"
+            loading="lazy" width="900" height="1100"
+            class="product-img"
+          />
+        </figure>
+        <div class="price-badge" aria-label="Price: £500">£500</div>
+        <div class="brand-badge">Coach</div>
+      </div>
+      <div class="card-info">
+        <div>
+          <p class="product-brand">Coach — Signature Canvas</p>
+          <h2 class="product-name">Suede Panel<br>Baguette</h2>
+          <p class="product-desc">
+            Classic Coach signature canvas disrupted by a bold centre panel of dusty rose and
+            pale lavender suede — a pairing that feels simultaneously vintage and entirely current.
+            Silver zip and lobster-claw hardware, dark leather piping along the frame, and a compact
+            baguette profile that makes it one of the most wearable pieces in the collection.
+            In excellent vintage condition with original Coach hangtag.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <span class="price-display">£500</span>
+          <a href="#contact" class="buy-btn">Buy This Bag</a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ─────────────────────────────────────────────────
+         ROW 4 · FEATURED
+         Artisan Multi-Leather Patchwork Hobo
+    ───────────────────────────────────────────────────── -->
+    <article class="product-card product-card--featured" id="bag-ltr" data-animate>
+      <div class="card-visual card-visual--ltr">
+        <figure class="product-figure">
+          <img
+            src="./assets/images/patchwork-leather.png"
+            alt="Artisan multi-texture patchwork leather hobo bag on a warm neutral studio surface — panels of full-grain tan, cognac and espresso leather with hand-woven inserts, hammered grommets, braided rope handles and a Fossil key tassel"
+            loading="lazy" width="900" height="1100"
+            class="product-img"
+          />
+        </figure>
+        <div class="price-badge" aria-label="Price: £750">£750</div>
+        <div class="brand-badge">Artisan</div>
+      </div>
+      <div class="card-info">
+        <div>
+          <p class="featured-eyebrow">Collector's Rarity</p>
+          <p class="product-brand">Artisan — Multi-Leather Craft</p>
+          <h2 class="product-name">Patchwork Leather<br>Artisan Hobo</h2>
+          <div class="info-divider" aria-hidden="true"></div>
+          <p class="product-desc">
+            A bag built the old way — by hand, with intention. Panels of full-grain tan, cognac,
+            and espresso leather are assembled with hand-woven insert sections, a central hammered
+            brass grommet strip, and hand-laced seam detailing along the sides. Braided rope handle
+            attachments, double shoulder straps with woven leather ties, and a leather key tassel
+            finish the piece. No two panels are alike. No second bag like this exists anywhere.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <span class="price-display">£750</span>
+          <a href="#contact" class="buy-btn buy-btn--accent">Buy This Bag</a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ─────────────────────────────────────────────────
+         ROW 5 · LEFT
+         Coach Red Suede — Street Styled
+    ───────────────────────────────────────────────────── -->
+    <article class="product-card" id="bag-red-worn" data-animate>
+      <div class="card-visual card-visual--red">
+        <figure class="product-figure">
+          <img
+            src="./assets/images/red-suede-worn.png"
+            alt="Coach Red Suede Hamptons Satchel carried by a model in a black tank top and denim jeans — face not shown — deep crimson suede with antique brass chain links and star charm, framed by a black lacquered door with brass knocker"
+            loading="lazy" width="900" height="1100"
+            class="product-img"
+          />
+        </figure>
+        <div class="price-badge" aria-label="Price: £950">£950</div>
+        <div class="brand-badge">Coach</div>
+      </div>
+      <div class="card-info">
+        <div>
+          <p class="product-brand">Coach — Est. 1941</p>
+          <h2 class="product-name">Red Suede Hamptons<br>— Street Styled</h2>
+          <p class="product-desc">
+            The same rare crimson suede satchel, shown here doing what it does best — commanding
+            attention on the street. Worn with raw denim and a black tank top, the brass chain hardware
+            and star charm are the only accessories you need. This is how a great bag announces itself
+            without trying. One piece. The same price either way.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <span class="price-display">£950</span>
+          <a href="#contact" class="buy-btn">Buy This Bag</a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ─────────────────────────────────────────────────
+         ROW 5 · RIGHT
+         Coach Signature Hobo — Still Life
+    ───────────────────────────────────────────────────── -->
+    <article class="product-card" id="bag-hobo-still" data-animate style="transition-delay:0.1s">
+      <div class="card-visual card-visual--hobo-still">
+        <figure class="product-figure">
+          <img
+            src="./assets/images/hobo-still.png"
+            alt="Coach Signature Crescent Hobo at rest on an ornate gilt marble console table — gold vase with white roses, framed oil painting on the wall, brass candlestick and a Coach Est. 1941 coffee table book styled around it"
+            loading="lazy" width="900" height="1100"
+            class="product-img"
+          />
+        </figure>
+        <div class="price-badge" aria-label="Price: £550">£550</div>
+        <div class="brand-badge">Coach</div>
+      </div>
+      <div class="card-info">
+        <div>
+          <p class="product-brand">Coach — Signature Series</p>
+          <h2 class="product-name">Signature Crescent<br>Hobo</h2>
+          <p class="product-desc">
+            Warm khaki and tobacco monogram canvas in Coach's most beloved silhouette. Shown here
+            at rest in an ornate setting — a gilt console, white roses, and a framed oil painting —
+            because a bag of this calibre deserves that kind of company. Gold-tone star charm,
+            adjustable leather strap, ring hardware. The kind of piece that makes any room feel
+            more considered.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <span class="price-display">£550</span>
+          <a href="#contact" class="buy-btn">Buy This Bag</a>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ─────────────────────────────────────────────────
+         ROW 6 · FEATURED
+         Coach Patchwork Canvas Pochette
+    ───────────────────────────────────────────────────── -->
+    <article class="product-card product-card--featured" id="bag-patchwork" data-animate>
+      <div class="card-visual card-visual--patchwork">
+        <figure class="product-figure">
+          <img
+            src="./assets/images/patchwork-pochette.png"
+            alt="Coach Limited Edition Patchwork Canvas Pochette on a travertine surface — multicolour archive print panels with gold padlock, star and key charm cluster, white roses and greenery in a clay vase and a Coach New York gift box"
+            loading="lazy" width="900" height="1100"
+            class="product-img"
+          />
+        </figure>
+        <div class="price-badge" aria-label="Price: £650">£650</div>
+        <div class="brand-badge">Coach</div>
+      </div>
+      <div class="card-info">
+        <div>
+          <p class="featured-eyebrow">Limited Edition Archive</p>
+          <p class="product-brand">Coach — Archive Print Series</p>
+          <h2 class="product-name">Patchwork Canvas<br>Pochette</h2>
+          <div class="info-divider" aria-hidden="true"></div>
+          <p class="product-desc">
+            Every square of this pochette tells a different story from the Coach archive — florals,
+            gingham, candy stripes, signature monogram, painterly abstracts, and graphic typography
+            assembled into one exuberant patchwork canvas. A gold-tone charm cluster includes a
+            padlock, a star, and a key on a ball chain — each one stamped with Coach provenance.
+            This was a limited-edition release and represents one of the most collectible pieces
+            Coach has ever produced. With the original Coach New York gift box.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <span class="price-display">£650</span>
+          <a href="#contact" class="buy-btn buy-btn--accent">Buy This Bag</a>
+        </div>
+      </div>
+    </article>
+
+
+  </section>
+  </main>
+
+
+  <!-- ══ CONTACT ══════════════════════════════════════════ -->
+  <section id="contact" data-animate>
+    <p class="contact-eyebrow">Get In Touch</p>
+    <h2>Interested in a <em>Piece?</em></h2>
+    <p>Fill in below and we'll be in touch within 24 hours to arrange payment, authentication certificates, and secure dispatch anywhere in the world.</p>
+    <div class="contact-form" role="form" aria-label="Purchase enquiry form">
+      <input type="text"  id="fname"  placeholder="Your Name"  required aria-label="Your full name"      aria-required="true" autocomplete="name"  />
+      <input type="email" id="femail" placeholder="Your Email" required aria-label="Your email address"  aria-required="true" autocomplete="email" />
+      <input type="text"  id="fbag"   placeholder="Which bag are you enquiring about?" aria-label="Bag name" />
+      <textarea id="fmsg" placeholder="Your message — questions, offer, viewing request…" aria-label="Your message"></textarea>
+      <button type="button" class="contact-submit" id="contact-submit">Send Enquiry</button>
+      <p class="form-success" id="form-success" role="alert" aria-live="polite">
+        ✓ &nbsp;Thank you — we'll be in touch shortly.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ══ FOOTER ═══════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <span class="footer-logo">The Vault</span>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="#catalog">Collection</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <small class="footer-copy">&copy; 2026 The Vault. All rights reserved.</small>
+  </footer>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
